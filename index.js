@@ -1,16 +1,14 @@
-function trueOrFalse(wasThatTrue) {
-    if (wasThatTrue == true){
-      return "Yes, that was true"
-    } 
-    if (wasThatTrue == false){
-     return "No, that was false"
-    }
-  
+function testLogicalOr(val) {
     // Only change code below this line
   
+    if (val>20 || val<10) {
+      return "Outside";
+    }
+  
+    
   
     // Only change code above this line
-  
+    return "Inside";
   }
-  trueOrFalse(true);
-  trueOrFalse(false)
+  
+  testLogicalOr(15);
