@@ -1,5 +1,16 @@
-function functionWithArgs(param1, param2) {
-    console.log(param1 + param2)
-  }
-  functionWithArgs(1, 2);
-  functionWithArgs(7, 9);
+// Setup
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+function addFive() {
+  sum = sum + 5;
+}
+
+// Only change code above this line
+
+addThree();
+addFive();
