@@ -1,23 +1,20 @@
-const myMusic = [
+const myPlants = [
     {
-      "artist": "Billy Joel",
-      "title": "Piano Man",
-      "release_year": 1973,
-      "formats": [
-        "CD",
-        "8T",
-        "LP"
-      ],
-      "gold": true
+      type: "flowers",
+      list: [
+        "rose",
+        "tulip",
+        "dandelion"
+      ]
     },
     {
-      "artist": "TDG",
-      "title": "rock",
-      "release_year": 2006,
-      "formats": [
-        "CD",
-        "8T",
-        "LP"
-      ],
+      type: "trees",
+      list: [
+        "fir",
+        "pine",
+        "birch"
+      ]
     }
   ];
+  
+  const secondTree = myPlants[1].list[1];
