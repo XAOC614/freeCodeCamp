@@ -1,6 +1,5 @@
-function convertToInteger(str) {
-  const by = parseInt(str,2)
-  return by
+function checkEqual(a, b) {
+  return a === b ? "Equal" : "Not Equal"; 
   }
   
-  convertToInteger("10011");
+  checkEqual(1, 2);
